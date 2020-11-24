@@ -18,6 +18,9 @@ function showTime() {
   time.innerHTML = `${addZero(hours)}<span>:</span>${addZero(
     minutes
   )}<span>:</span>${addZero(seconds)}`;
+  time.innerHTML = `${addZero(hours)}<span>:</span>${addZero(
+    minutes
+  )}<span>:</span>${addZero(seconds)}`;
 
   setTimeout(showTime, 1000);
 }
