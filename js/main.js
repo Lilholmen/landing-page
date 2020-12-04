@@ -31,13 +31,13 @@ function setBGImage() {
   let hours = today.getHours();
 
   if (hours < 12) {
-    document.body.style.backgroundImage = 'url("../img/morning.jpg")';
+    document.body.style.backgroundImage = 'url("img/morning.jpg")';
     greeting.textContent = 'Good morning';
   } else if (hours < 18) {
-    document.body.style.backgroundImage = 'url("../img/day.jpg")';
+    document.body.style.backgroundImage = 'url("img/day.jpg")';
     greeting.textContent = 'Good day';
   } else {
-    document.body.style.backgroundImage = 'url("../img/night.jpg")';
+    document.body.style.backgroundImage = 'url("img/night.jpg")';
     greeting.textContent = 'Good evening';
     document.body.style.color = 'white';
   }
